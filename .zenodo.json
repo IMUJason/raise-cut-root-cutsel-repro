@@ -1,0 +1,22 @@
+{
+  "title": "RAISE-Cut Root Cut Selection Reproducibility Package",
+  "upload_type": "software",
+  "publication_date": "2026-03-15",
+  "description": "Minimal public reproducibility package for the Plan 5 / RAISE-Cut root cut selection study. The repository supports analysis-level reproduction from archived merged results and archived summary tables, and also includes optional entry points for solver-side reruns when local SCIP and PySCIPOpt installations are available.",
+  "creators": [
+    {
+      "name": "Cao, Jin Xin",
+      "affiliation": "Inner Mongolia Academy of Science and Technology; Institute of Transportation Engineering, Inner Mongolia University",
+      "orcid": "0000-0001-5768-8190"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "mixed-integer programming",
+    "SCIP",
+    "cut selection",
+    "reproducibility",
+    "operations research"
+  ]
+}

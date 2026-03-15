@@ -63,3 +63,10 @@ You must provide your own local instance collection and manifests with valid pat
 ## Suggested Public Repository Name
 
 Recommended GitHub repository name: `raise-cut-root-cutsel-repro`
+
+## Citation and Archival Metadata
+
+- Repository citation metadata: `CITATION.cff`
+- Zenodo deposition metadata: `.zenodo.json`
+- Copy-ready availability statements: `docs/availability-statements.md`
+- Draft GitHub release notes: `docs/release-v0.1.0.md`

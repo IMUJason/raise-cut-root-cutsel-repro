@@ -1,0 +1,26 @@
+[project]
+name = "raise-cut-root-cutsel-repro"
+version = "0.1.0"
+description = "Minimal reproducibility package for the Plan 5 / RAISE-Cut root cut selection study."
+requires-python = ">=3.11"
+dependencies = [
+    "matplotlib>=3.8",
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "scipy>=1.11",
+]
+
+[project.optional-dependencies]
+solver = [
+    "pyscipopt>=5.0",
+]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
